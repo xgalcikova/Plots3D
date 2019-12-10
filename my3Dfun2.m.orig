@@ -1,0 +1,65 @@
+<<<<<<< HEAD
+%% my3Dfun2
+=======
+%% my3Dfun1
+>>>>>>> 1c6b3c682edc6564b7e95a1317d8fbe5e94f984d
+
+%% Function domain
+
+[x,y] = meshgrid(-10:0.1:10,-10:0.1:10);
+    
+%% Function values
+
+<<<<<<< HEAD
+z = sin(sqrt(x.^2+y.^2)+eps)./(sqrt(x.^2+y.^2));
+=======
+z = sin(sqrt(x.^2+y.^2)+eps)./sqrt(x.^2+y.^2);
+>>>>>>> 1c6b3c682edc6564b7e95a1317d8fbe5e94f984d
+    
+%% Figure initialization
+
+figure 
+    
+%% Plotting figure
+
+surf(x,y,z)
+    
+%% Title
+
+<<<<<<< HEAD
+title('z_A = sin(sqrt(x^2+y^2)+eps)/sqrt(x^2+y^2)')
+
+%% Labels
+
+xlabel('x_A')
+
+ylabel('y_A')
+
+zlabel('z_A')
+=======
+title('z_B = sin(sqrt(x^2 + y^2) + eps) / sqrt(x.^2 + y^2)')
+
+%% Labels
+
+xlabel('x_B')
+
+ylabel('y_B')
+
+zlabel('z_B')
+>>>>>>> 1c6b3c682edc6564b7e95a1317d8fbe5e94f984d
+    
+%% Grid
+
+grid minor
+    
+%% Colormap
+
+<<<<<<< HEAD
+colormap pink
+=======
+colormap copper
+>>>>>>> 1c6b3c682edc6564b7e95a1317d8fbe5e94f984d
+    
+%% Shading
+
+shading interp

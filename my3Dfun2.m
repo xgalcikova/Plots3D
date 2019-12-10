@@ -34,7 +34,7 @@ grid minor
     
 %% Colormap
 
-colormap pink
+colormap copper
     
 %% Shading
 
