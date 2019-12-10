@@ -1,0 +1,64 @@
+%% my3Dfun1
+
+%% Function domain
+
+<<<<<<< HEAD
+[x,y] = meshgrid(-4:0.1:4,-2:0.1:2);
+=======
+[x,y] = meshgrid([-4:0.1:4],[-2:0.1:2]);
+>>>>>>> fbb995874f020d27f25a97224dd1721ade64f894
+    
+%% Function values
+
+z = x.*exp(-x.^2-y.^2);
+    
+%% Figure initialization
+
+<<<<<<< HEAD
+figure(1)
+=======
+figure 
+>>>>>>> fbb995874f020d27f25a97224dd1721ade64f894
+    
+%% Plotting figure
+
+surf(x,y,z)
+<<<<<<< HEAD
+    
+%% Title
+
+title('z_B = x exp(-x^2-y^2)')
+=======
+
+%% Title
+
+title('z_B=x exp(-x^2-y^2)')
+>>>>>>> fbb995874f020d27f25a97224dd1721ade64f894
+
+%% Labels
+
+xlabel('x_B')
+
+ylabel('y_B')
+
+zlabel('z_B')
+    
+%% Grid
+
+grid minor
+    
+%% Colormap
+
+<<<<<<< HEAD
+colormap cool
+    
+%% Shading
+
+shading interp
+=======
+colormap hot
+    
+%% Shading
+
+shading interp
+>>>>>>> fbb995874f020d27f25a97224dd1721ade64f894

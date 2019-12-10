@@ -10,7 +10,7 @@ z = x.*exp(-x.^2-y.^2);
     
 %% Figure initialization
 
-figure(1)
+figure 
     
 %% Plotting figure
 
@@ -34,7 +34,7 @@ grid minor
     
 %% Colormap
 
-colormap cool
+colormap hot
     
 %% Shading
 
