@@ -2,7 +2,7 @@
 
 %% Function domain
 
-[x,y] = meshgrid([-4:0.1:4],[-2:0.1:2]);
+[x,y] = meshgrid(-4:0.1:4,-2:0.1:2);
     
 %% Function values
 
@@ -15,10 +15,10 @@ figure
 %% Plotting figure
 
 surf(x,y,z)
-
+    
 %% Title
 
-title('z_B=x exp(-x^2-y^2)')
+title('z_B = x exp(-x^2-y^2)')
 
 %% Labels
 
