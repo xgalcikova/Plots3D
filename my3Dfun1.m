@@ -7,7 +7,7 @@
 %% Function values
 
 z = x.*exp(-x.^2-y.^2);
-    
+    r
 %% Figure initialization
 
 figure 
